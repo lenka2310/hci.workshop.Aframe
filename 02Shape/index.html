@@ -8,15 +8,38 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #333333">
+    <a-scene background="color: #000000">
       <a-box id="myBox"
         width="1"
         height="1"
         depth="1"
-        color="#FFFFFF" 
-        position="0 1 0"
+        color="#FFF01F" 
+        position="0 1.5 -5"
+        scale="0.8 0.8 0.8"
+        rotation="4 20 20"
         shadow>
       </a-box>
+      <a-cone id="myCone"
+      width="1"
+      height="1"
+      depth="1"
+      color="#FFF01F"
+      position="0 3 -5"
+      scale = "0.5 0.5 0.5"
+      rotation="5 2 5"
+      shadow>
+      </a-cone>
+      <a-ring id="myRing"
+      width="1"
+      height="1"
+      depth="1"
+      color="#F6BE00"
+      position="0 2 -5"
+      scale = "2 2 2"
+      rotation="0 0 0"
+      shadow>
+      </a-ring>
+     
     </a-scene>
   </body>
 </html>
